@@ -82,7 +82,7 @@ const handlers = {
         const randomOpening = openArr[openIndex];
         
         const speechOutput = randomOpening;
-        const audio1 = 'audio src="https://s3.amazonaws.com/tamilcomedydialogues/Gowndamani+-+Azhagu+Raja.mp3"/>';
+        const audio1 = '<audio src="https://s3.amazonaws.com/tamilcomedydialogues/Gowndamani+-+Azhagu+Raja.mp3"/>';
         
         this.response.speak(speechOutput);
         this.emit(':ask','${audio1}','Aw I wish you liked it.');
